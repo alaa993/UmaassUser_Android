@@ -1,0 +1,16 @@
+#Tue Nov 17 10:34:46 IRST 2020
+path.4=classes2.dex
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
+path.0=classes.dex
+base.4=F\:\\StudioProjects\\android_umaassuser\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.3=F\:\\StudioProjects\\android_umaassuser\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+base.2=F\:\\StudioProjects\\android_umaassuser\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+base.1=F\:\\StudioProjects\\android_umaassuser\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.0=F\:\\StudioProjects\\android_umaassuser\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.4=classes5.dex

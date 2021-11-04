@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">umaass</string>
+
+    <string name="all">هەموو</string>
+    <string name="login">چوونەژوورەوە</string>
+    <string name="register">تۆماركردن</string>
+    <string name="log_out">چوونەدەرەوە</string>
+
+
+    <string name="successful_operation">پڕۆسەكە سەركەوتووبوو</string>
+    <string name="balance_is_not_enough">بڵانسەكە بەش ناكات</string>
+    <string name="wallet_not_found">جزدانەكە بوونى نييە</string>
+    <string name="transactions_list">ليستەى مامەڵەكان</string>
+    <string name="charge_code_applied_successfully">هێماى پڕكردنەكە بەسەركەوتوويى جێبەجێ كرا</string>
+    <string name="withdraw_amount">ڕاكێشانى بڕەپارەكە</string>
+    <string name="request_has_been_sent_successfully">داواكارييەكە بە سەركەوتوويى ناردرا</string>
+    <string name="balance_is_low">ليستەى مامەڵەكان</string>
+    <string name="accounts_charge">پڕكردنى ئەژمارەكە</string>
+    <string name="send_money">ناردنى پارە</string>
+    <string name="commission_wallet">ناردنى پارە</string>
+    <string name="remain_balance">بڵانسى ماوە</string>
+
+    <string name="trip">گەشت</string>
+    <string name="charge_by_cash">پڕكردن بە كاش</string>
+    <string name="charge_by_code">پڕكردن لە ڕێگەى كۆد</string>
+    <string name="transfered_by_user">لە ڕێگەى بەكارهێنەرەوە حەواڵە كراوە</string>
+    <string name="transfered_to_user">بۆ بەكارهێنەر حەواڵە كراوە</string>
+    <string name="transfered_by_provider">لە ڕێگەى كاپتن حەواڵە كراوە</string>
+    <string name="transfered_to_provider">بۆ كاپتن حەواڵە كراوە</string>
+    <string name="withdraw">ڕاكێشان</string>
+    <string name="confirmed">دڵنيايى</string>
+    <string name="pending">چاوەڕوان بكە</string>
+    <string name="rejected">ڕەتكراوە</string>
+    <string name="request">داواكارى</string>
+    <string name="wallet_id">پێناسى جزدانەكە</string>
+    <string name="balance">بڵانس</string>
+    <string name="charge_code">كۆدى پڕكردن</string>
+    <string name="send">ناردن</string>
+    <string name="invalid_charge_code">كۆدى پڕكردنەكە هەڵەيە</string>
+    <string name="are_you_sure_for_send_money_to">ئايا تۆ دڵنياى لە ناردنى پارەكە بۆ</string>
+    <string name="please_enter_your_code">تكايە كۆدەكە تێخە</string>
+    <string name="please_enter_wallet_id">تكايە پێناسى جزدانەكە تێخە</string>
+    <string name="please_enter_amount">تكايە بڕەپارەكە تێخە</string>
+    <string name="wallet_commission">عموله</string>
+
+    <string name="internet"> تکایە دڵنیابە لە پەیوەندیکردنت بە ئینتەرنێت .. ڕەنگە پەیوەندییەکە لاواز بێت یان پەیوەندی پێ نەکردبێت</string>
+    <string name="tax">باج</string>
+    <string name="please_wait">تكایه‌ چاوه‌ڕێكه‌</string>
+
+    <string name="ratetrip">هەڵسەنگاندنى گەشتەكان</string>
+    <string name="write">كۆمێنت بنووسە</string>
+
+    <!--<string name="facebook_app_id">141223863110656</string>-->
+    <string name="pasttrip">گەشتى پێشوو</string>
+    <string name="upcomingtrip">گەشتى داهاتوو</string>
+
+    <!--navigation_drawer-->
+    <string name="navigation_drawer_open">ليستەكە بكەوە</string>
+    <string name="navigation_drawer_close">داخستن</string>
+    <string name="target">شوێنى مەبەست</string>
+
+
+    <string name="waitingForApproval">چاوەڕوانى بۆ پەسەند كردن</string>
+
+    <string name="action_settings">چالاك كردن- دەستكارى كردن</string>
+    <string name="distance">دوورى</string>
+    <string name="time">كات</string>
+
+    <!--Activity Begin-->
+    <string name="get_moving_with_taxialaan">دەستكردن بە جوڵە TAXI ALAAN</string>
+    <string name="enter_your_mail_id">ئيمێڵەكە بنووسە</string>
+    <string name="or_connect_with_social_media">پەيوەندى كردن لەگەڵ تۆڕى كۆمەڵايەتى</string>
+
+    <!--Activity Email --> ئيمێڵى چالاك كراو
+    <string name="whats_your_mail_address">ئيمێڵەكە چييە</string>
+    <string name="sample_mail_id">name@example.com</string>
+
+    <!--Activity Password -->
+    <string name="welcome_back">بەخێربێيتەوە</string>
+    <string name="enter_your_password">تێپەڕەوشە بنووسە</string>
+    <string name="i_forgot_my_password">تێپەڕەوشەم لەياد كردووە؟</string>
+    <string name="i_need_to_create_an_account">ثپێويستە ژمارەى هەژمارى دروست بكەيت</string>
+
+
+    <!--Activity Register-->
+    <string name="email">ئيمێڵ</string>
+    <string name="name">ناو</string>
+    <string name="phone_number">ژمارەى مۆبايل</string>
+    <string name="password">تێپەڕەوشە</string>
+    <string name="first_name">ناوى يەكەم</string>
+    <string name="last_name">ناوى كۆتايى </string>
+    <string name="mobile_no">9876543210</string>
+    <string name="password_txt">******</string>
+    <string name="Introducer_code">کۆدی پێناس</string>
+
+    <!-- Activity ForgetPassword -->
+    <string name="recover_password">ناسێنەرەوەى ئيمێڵى تايبەت بەخۆت بنووسە بۆ وەرگرتنەوە</string>
+
+
+    <!-- Edit Activity-->
+    <string name="edit_profile">دەستكارى كردنى پڕۆفايل</string>
+    <string name="change_password">گۆڕينى تێپەڕەوشە؟</string>
+    <string name="save">خەزن كردن</string>
+    <string name="update_success">نوێبوونەوە بە سەركەوتوويى</string>
+
+    <!--Show Dailog-->
+    <string name="connect_to_network">پەيوەندى كردن بە هێلى ئينتەرنێت</string>
+    <string name="connect_to_wifi">پەيوەندى كردن بە واى فاى</string>
+    <string name="quit">چوونەدەرەوە</string>
+    <string name="cancel_ride">پاشگەزبوونەوە لە گەشتەكە</string>
+    <string name="cencel_request">رەتكردنەوەى داواكارييەكە</string>
+    <string name="exit_confirm">چوونەدەرەوە لە دڵنيابوون</string>
+
+
+    <!-- Error Messages-->
+    <string name="something_went_wrong">شتێكی هه‌ڵه‌ روویدا.</string>
+    <string name="something_went_wrong_net">شتێكی هه‌ڵه‌ روویدا</string>
+    <string name="oops_connect_your_internet">ببوره‌- په‌یوه‌ندی به‌ ئینته‌رنێت</string>
+    <string name="server_down">سێرڤه‌ری خواره‌وه‌.</string>
+    <string name="please_try_again">تكایه‌ دواتر هه‌وڵ بدە</string>
+    <string name="email_validation">به‌رجه‌سته‌بوونی ئيمێڵ.</string>
+    <string name="not_valid_email">ئه‌م ئیمێڵە نيیه‌</string>
+    <string name="password_validation">به‌رجه‌سته‌بوونی ئیمێڵ.</string>
+    <string name="first_name_empty">اناوی یه‌كه‌م- به‌تاڵه‌.</string>
+    <string name="last_name_empty">ناوی كۆتایی - به‌تاڵە.</string>
+    <string name="mobile_number_empty">ژماره‌ی مۆبایل- به‌تاڵ.</string>
+    <string name="request_reject">پاشگه‌زبوونه‌وه‌ - داواكاری</string>
+    <string name="request_accept">قەبوڵ كردنی داواكارییه‌كه‌</string>
+    <string name="reject">پاشگه‌زبوونه‌وه‌</string>
+    <string name="accept"> قەبوڵ كرا</string>
+    <string name="request_cancel">پاشگه‌زبوونه‌وه‌ له‌ داواكارییه‌كه‌</string>
+    <string name="no_routes_available">هیچ رێگایه‌ك به‌رده‌ست نيیه‌</string>
+
+
+    <!--Approval status-->
+    <string name="approved">په‌سه‌ند كرا</string>
+    <string name="banned">راگیرا</string>
+    <string name="waiting_for_approval">چاوه‌رێ كردن بۆ په‌سه‌ند كردن</string>
+
+    <!--جزدانی پاره‌-->
+    <string name="your_wallet_amount">بری پاره‌ی به‌رده‌ست</string>
+    <string name="sample_amount">1450</string>
+
+    <!--Offline Activity -->
+    <string name="go_online">چوونەژوورەوە بۆ ئەپڵيكەيشن</string>
+    <string name="go_offline">چوونەدەرەوە لە ئەپليكەيشن</string>
+
+    <!--Invalid Username and Password-->
+    <string name="invalid_credentials">به‌ڵگه‌نامه‌كان راست نین.</string>
+
+
+    <!--Your Trips-->
+    <string name="history">تۆمارى گەشتەكان</string>
+    <string name="comments">كۆمێنته‌كان</string>
+    <string name="no_trips">گه‌شت نیيه‌</string>
+    <string name="no_upcoming_trips">هیچ گه‌شتێكی داهاتوو نيیه‌</string>
+    <string name="no_rides">لێخوڕین نيیه‌</string>
+    <string name="upcoming">داهاتوو</string>
+    <string name="past">پێشوو</string>
+    <string name="payment_methods">شێوازی پاره‌دان</string>
+    <string name="sample_name">Will Smith</string> ناوی نموونه‌
+
+
+    <!--Flow status -->
+    <string name="tap_when_arrived">دابگره‌- كاتێ گه‌یشتی</string>
+    <string name="tap_when_pickedup">دابگره‌- كاتێ نه‌فه‌ر سوار بوو</string>
+    <string name="tap_when_dropped">دابگره‌- كاتێ نه‌فه‌ر دابه‌زی</string>
+    <string name="tap_when_paid">دابگره‌- كاتێ پاره‌كه‌ درا</string>
+    <string name="rate_user">تێكڕای به‌كارهێنه‌ر</string>
+
+
+    <!--Change Password-->
+    <string name="change_password_title">گۆڕینی ناونیشانی تێپەڕەوشە</string>
+    <string name="current_password">تێپەڕەوشە - ئێستا</string>
+    <string name="new_password">تێپەڕەوشە نوێ</string>
+    <string name="confirm_password">دڵنیابوونه‌وه‌ له‌ تێپەڕەوشە</string>
+    <!-- <string name="please_enter_current_pass">تكایه‌ تێپەڕەوشە ئێستا بنووسە .</string>
+     <string name="please_enter_new_pass">تكایه‌ تێپەڕەوشەى نوێ بنووسه‌.</string>
+     <string name="please_enter_confirm_pass">تكایه‌ ووشه‌ی نهێنی دڵنیا بوون داخل بكه‌.</string>
+     <string name="different_passwords">تێپەڕەوشە هه‌ڵه‌یه‌.</string>
+ -->
+    <string name="please_enter_current_pass">تكایه‌ تێپەڕەوشەى ئێستا تێخه‌</string>
+    <string name="please_enter_new_pass">تكایه‌ تێپەڕەوشەى نوێ تێخه‌</string>
+    <string name="please_enter_confirm_pass">دڵنيا بكەرەوە لە تێخستنى تێپەڕەوشه‌</string>
+    <string name="different_passwords">تێپەڕەوشە هەڵه‌یه‌</string>
+
+    <!--Side Navigation Menu -->
+    <string name="home">سه‌ره‌كی</string>
+    <string name="your_trips">گەشتەكانت</string>
+    <string name="wallet">جزدانی پاره‌</string>
+    <string name="help">یارمه‌تی</string>
+    <string name="earnings">په‌راوێزی قازانج</string>
+    <string name="share">به‌شداری پێكردن</string>
+    <string name="logout">هاتنه‌ ده‌ره‌وه‌</string>
+    <string name="amount">بری پاره‌</string>
+
+    <string name="call">په‌یوه‌ندی </string>
+
+    <string name="total_earnings">تێچووی گشتى</string>
+
+    <string name="valid_image">وێنه‌ی به‌رده‌ست</string>
+    <string name="user_no_mobile">به‌كارهێنه‌ر- ژماره‌ی مۆبایل نيیه‌.</string>
+    <string name="incorrect_otp">ژماره‌كه‌ هه‌ڵه‌یه‌</string>
+    <string name="otp_validation">تێخستنى ژماره‌كه‌</string>
+    <string name="confirm_password_validation">دڵنیا بوونه‌وه‌ له‌ ژماره‌ی نهێنی</string>
+    <string name="confirm_validation">دڵنیابوونه‌وه‌ له‌ چالاكیه‌كه‌6</string>
+    <string name="new_validation">هه‌ژماری نوێ 6</string>
+    <string name="note">تێبینی</string>
+    <string name="secrete_code">كۆدی نهێنی</string>
+    <string name="reset_password">نوێ كردنه‌وه‌ی تێپەڕەوشە</string>
+    <string name="request_time_out">داواكارییه‌كه‌ كاتی به‌سه‌ر چوو</string>
+    <string name="cancel_confirm">پاشگه‌زبوونه‌وه‌ له‌ سه‌لماندن</string>
+    <string name="yes">به‌ڵێ</string>
+    <string name="no">نه‌خێر</string>
+    <string name="connect_with_social_media">په‌یوه‌ندی له‌گه‌ڵ تۆڕی كۆمه‌ڵایه‌تی</string>
+    <string name="service">خزمه‌تگوزاری</string>
+    <string name="no_services">خزمه‌تگوزاری نیيه‌</string>
+    <string name="choose_acc">هه‌ژمارێك دیاری بكه‌</string>
+    <string name="facebook_name">فه‌یسبوك</string>
+    <string name="google_name">گوگڵ</string>
+    <string name="commission">تێچووی خزمه‌تگوزارییه‌كه‌</string>
+    <string name="no_comments">كۆمێنت نیيه‌</string>
+    <string name="base_price">كرێی سه‌ره‌كی</string>
+    <string name="distance_price">تێچووی ماوه‌كه‌</string>
+    <string name="profile">پرۆفایلی كه‌سی</string>
+    <string name="services_requested">خزمه‌تگوزاری داواكراو</string>
+    <string name="sos_confirm">دڵنیابوونه‌وه‌ </string>
+    <string name="choose_type">هه‌ڵبژاردنی جۆره‌كه‌</string>
+    <string name="invoice">لیستی تێچوو - </string>
+    <string name="pick_up">هه‌ڵبژاردنی شوێنه‌كه‌ </string>
+    <string name="drop_at">هه‌ڵبژاردنی نه‌فه‌ره‌كه‌ له‌ شوێنی</string>
+    <string name="reason_to_cancel">هۆكاری پاشگه‌زبوونه‌وه‌</string>
+    <string name="booking_id_colon">ژماره‌ی ناسنامه‌ی حجز كردن : </string>
+    <string name="booking_id">ناسنامه‌ی حجز كردن</string>
+    <string name="reason">هۆكاری</string>
+    <string name="submit">پابه‌ندبوون</string>
+    <string name="summary">كورته‌</string>
+    <string name="total_rides">كۆی گشتی گه‌شته‌كان</string>
+    <string name="revenue">داهات</string>
+    <string name="schedule_rides">خشته‌ی گه‌شته‌كان</string>
+    <string name="canceled_rides">پاشگه‌زبوونه‌وه‌ له‌ گه‌شته‌كان</string>
+    <string name="rides"> گه‌شته‌كان</string>
+    <string name="upcoming_rides">گه‌شتی داهاتوو</string>
+    <string name="help_msg">یارمه‌تی- نامه‌</string>
+    <string name="no_address">ناونیشان نيیه‌</string>
+    <string name="email_exist">ئیمێڵ هه‌یه‌</string>
+    <string name="first_name_no_number">ناوی یه‌كه‌م- ژماره‌ی مۆبایل</string>
+    <string name="last_name_no_number">ناوی كۆتایی- ژماره‌ی مۆبایل</string>
+    <string name="password_size">تێپەڕەوشە- قه‌باره‌ 6</string>
+    <string name="sms_verification">نامه‌-دڵنیابوونه‌وه‌</string>
+    <string name="select_country_code">كۆدی وڵات</string>
+    <string name="select_country_code_alert">ئاگاداركردنه‌وه‌ی كۆدی وڵات</string>
+    <string name="select_language">هه‌ڵبژاردنی زمان</string>
+    <string name="register_title">ناونیشانی تۆمار</string>
+    <string name="alphabets">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="choose_language">زمانه‌كه‌ هه‌ڵبژێره‌</string>
+    <string name="confirm">دڵنیابوونه‌وه‌ له‌ گه‌شته‌كه‌</string>
+    <string name="language_update">Updating Language... Please wait</string>
+    <string name="language">گۆڕينى زمان</string>
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="kurdish">Kurdî</string>
+
+    <string name="enter_your_mobile_number">ژمارەى تەلەفۆن تێخە</string>
+    <string name="what_s_your_phone_number">شماره خود را بنویسید</string>
+    <string name="mobile_number_validation">لطفا شماره تلفن</string>
+    <string name="valid_mobile_number">لطفا شماره تلفن را وارد کنید</string>
+    <string name="welcome_back_enter_otp_to_continue">در OTP نگه دارید</string>
+    <string name="otp_not_received_resend_again">OTP پذیرفته نشده است، سپس دوباره باز شود</string>
+    <string name="resend_otp">دوباره ارسال OTP</string>
+    <string name="error_enter_otp">لطفا OTP را وارد کنید</string>
+    <string name="error_please_enter_correct_otp">لطفا OTP را وارد کنید</string>
+    <string name="otp_sent_ur_number">OTP به شماره شما فرستاده می شود</string>
+    <string name="email_optional">ئيمێڵ (اختیاری)</string>
+    <string name="total">كۆى گشتى</string>
+    <string name="cash">بە كاش </string>
+    <string name="card">بەكەڵك نايەت</string>
+    <string name="Travel_costs">تێچووی گەشتەکان </string>
+    <string name="Discount">داشکاندن </string>
+
+    <string name="Pay_By_User_Wallet"> پارەکە دراوە لە جزدانی بەکارهێنەر</string>
+    <string name="Pay_By_User_In_Cash">  پارەکە بە کاش دراوە لەلایەن بەکارهێنەر</string>
+    <string name="Transfer_To_User_Wallet"> بۆ جزدانی بەکارهێنەر ناردراوە</string>
+    <string name="AmountisLess">بڕە پارەی تێخراو کەمترە لە نرخی گەشتەکە</string>
+    <string name="male">نێر</string>
+    <string name="female">مێ</string>
+    <string name="choose_gender">دياريكردنى ڕەگەز</string>
+    <string name="gender">ڕەگەز</string>
+    <string name="gender_">ڕەگەز:</string>
+    <string name="name_">ناو:</string>
+    <string name="location">ماڵپەر</string>
+    <string name="information">زانيارييەكانى</string>
+    <string name="gallery">كتێبخانەى وێنەكان</string>
+    <string name="kilometer">كيلومتر</string>
+    <string name="user_name">ناوى كڕيار</string>
+    <string name="friday">ڕۆژى هەينى</string>
+    <string name="monday">دووشەممە</string>
+    <string name="saturday">شەممە</string>
+    <string name="sunday">يەكشەممە</string>
+    <string name="thursday">پێنجشەممە</string>
+    <string name="tuesday">سێشەممە</string>
+    <string name="wednesday">چوارشەممە</string>
+    <string name="are_you_sure_for_exit">ئايا تۆ دڵنيايت كە لە هەژمارەكەت چوويتە دەرەوە</string>
+    <string name="date_">ڕێكەوت:</string>
+    <string name="delete">سڕينەوە</string>
+    <string name="done">تەواو</string>
+    <string name="version">دەرچوون</string>
+    <string name="no_items_found">هيچ بەرهەم نييە</string>
+    <string name="not_valid">زيانيارييەكان ناتەواوە</string>
+    <string name="cancel">لابردن</string>
+    <string name="title">ناونيشان</string>
+    <string name="my_favorites">باشترين</string>
+    <string name="Apply">ئەپڵيكەيشن</string>
+    <string name="a2zSort">ڕێكخستنى A-Z</string>
+    <string name="about">دەربارە</string>
+    <string name="add_review">زيادكردنى پێداچوونەوە</string>
+    <string name="add_service">زيادكردنى خزمەتگوزارى</string>
+    <string name="add_staff">زيادكردنى فەرمانبەران</string>
+    <string name="add_the_services_you_offer">"ئەو خزمەتگوزاريانە زياد بكە كە پێشكەشى دەكەيت "</string>
+    <string name="add_your_staff">فەرمانبەرەكانت زياد بكە</string>
+    <string name="address">ناونيشان</string>
+    <string name="admin_password">تێپەڕەوشەى بەرپرس</string>
+    <string name="age">تەمەن</string>
+    <string name="age_">تەمەن:</string>
+    <string name="agree">ڕەزامەند</string>
+    <string name="appointment">كات</string>
+    <string name="appointment_date">ڕێكەوتى كات</string>
+    <string name="appointment_phone">تەلەفۆنى كات</string>
+    <string name="are_you_sure">ئايا تۆ دڵنيايت؟</string>
+    <string name="are_you_sure_for_delete">ئايا تۆ دڵنيايت لە سڕينەوە؟</string>
+    <string name="are_you_sure_for_logout">ئايا تۆ دڵنيايت لە چوونەدەرەوە؟</string>
+    <string name="assistant_password">تێپەڕەوشەى ياريدەدەر</string>
+    <string name="birthday">ڕۆژى لەدايكبوون</string>
+    <string name="book">حجزكردن</string>
+    <string name="booking_appointment">حجزكردنى كات</string>
+    <string name="bookmarks">هێماكانى سەرچاوە</string>
+    <string name="car_number">ژمارەى ئۆتۆمبيل</string>
+    <string name="central_phone">تەلەفۆنى ناوەندى</string>
+    <string name="change_status">گۆڕينى بار</string>
+    <string name="choose_city">شار هەڵبژێرە</string>
+    <string name="choose_date">ڕێكەوت هەڵبژێرە</string>
+    <string name="choose_industry">پيشە هەڵبژێرە</string>
+    <string name="choose_roll">هەڵبژاردنى رۆڵ</string>
+    <string name="choose_service">خزمەتگوزارى هەڵبژێرە</string>
+    <string name="city">شار</string>
+    <string name="city_2dot">شار:</string>
+    <string name="close">"نزيك "</string>
+    <string name="closest">نزيكترين:</string>
+    <string name="code_2dot">كۆد :</string>
+    <string name="contact_us">پەيوەنديمان پێ بكە</string>
+    <string name="date">ڕێكەوت</string>
+    <string name="day">ڕۆژ</string>
+    <string name="day_">ڕۆژ:</string>
+    <string name="define_your_staff_password">تێپەڕەوشەكەت ديارى بكە بۆ فەرمانبەرانت</string>
+    <string name="deleted">"سڕايەوە "</string>
+    <string name="description">وەسف كردن</string>
+    <string name="dfault">ئەگەر</string>
+    <string name="don_t_worry_you_can_always_edit_these_later">دوودڵ مەبە! هەميشە دواتر دەتوانى بيگۆڕيت</string>
+    <string name="duration">ماوەى كات</string>
+    <string name="duration_">ماوەى كات:</string>
+    <string name="edit">گۆڕين</string>
+    <string name="edit_industry">نووسينى پيشەكە</string>
+    <string name="edit_location">دياريكردنى شوێن</string>
+    <string name="end">كۆتايى</string>
+    <string name="exit">چوونەدەرەوە</string>
+    <string name="expert">شارەزا</string>
+    <string name="files">"فايلەكان "</string>
+    <string name="filter">فلتەر</string>
+    <string name="for_another">حجزكردن بۆ ئەوانى ديكە</string>
+    <string name="for_me">حجزكردن بۆ خۆم</string>
+    <string name="full_name">ناوى تەواو</string>
+    <string name="gps_is_off">سيستەمى دياريكردنى شوێن داخراوە</string>
+    <string name="gps_off_message">وا ديارە كە GPS تۆ لە كاركەوتووە، ئايا دەتەوێ كار بكات؟</string>
+    <string name="grade">پلە</string>
+    <string name="hours">كات</string>
+    <string name="industry">كاتژمێرەكان</string>
+    <string name="let_your_customers_know_when_you_are_open">كاتێ كە ئامادەيت ئەوا ئاگادارى كڕيارەكانت بكەرەوە</string>
+    <string name="login_cancelled">چوونەژوورەوە رەتكرايەوە</string>
+    <string name="meter">مەتر</string>
+    <string name="month">مانگ</string>
+    <string name="month_">مانگ :</string>
+    <string name="most_visited">زۆرترين سەردانى كردن</string>
+    <string name="move">گواستنەوە</string>
+    <string name="near_me">لە تەنيشتم</string>
+    <string name="newest">تازەترين</string>
+    <string name="no_show">سەير نەكردن</string>
+    <string name="not_empty">نابێ بەتاڵ بێت</string>
+    <string name="oldest">كۆنترين</string>
+    <string name="order_by">رێكخستن بەپێى</string>
+    <string name="permission">مۆڵەتدان</string>
+    <string name="phone">تەلەفۆن</string>
+    <string name="phone_">تەلەفۆن:</string>
+    <string name="place">شوێن</string>
+    <string name="please_check_the_rules">تكايە دڵنيايى لە ڕێساكان بكەرەوە</string>
+    <string name="please_select_a_location">تكايە شوێنەكە ديارى بكە</string>
+    <string name="please_select_date_and_time">تكايە ڕێكەوت و كات ديارى بكە</string>
+    <string name="please_set_your_time">تكايە كاتەكەت رێكبخە</string>
+    <string name="pls_try_again">جارێكى تر هەوڵ بدە</string>
+    <string name="pls_wait">تكايە چاوەڕێ بكە</string>
+    <string name="prescription">تێبینییەکان</string>
+    <string name="price">نرخ</string>
+    <string name="price_">نرخ:</string>
+    <string name="provider">دابينكار</string>
+    <string name="provider_time_schedule">نەخشەى دابينكارى كات</string>
+    <string name="reference_number">ژمارەى سەرچاوە :</string>
+    <string name="request_status">بارى داواكارييەكە :</string>
+    <string name="requests">داواكارييەكان</string>
+    <string name="review">پێداچوونەوە</string>
+    <string name="reviews">"پێداچوونەوەكان "</string>
+    <string name="roll">رۆڵ</string>
+    <string name="rules">ڕێساكان</string>
+    <string name="saved">لەخۆگيرا</string>
+    <string name="search">گەڕان</string>
+    <string name="search_and_filter">گەڕان و پوختكردن</string>
+    <string name="see">سەيركردن</string>
+    <string name="select_a_date">ڕێكەوت هەڵبژێرە</string>
+    <string name="select_city">شار هەڵبژێرە</string>
+    <string name="select_date">رێكەوت ديارى بكە</string>
+    <string name="service_name">ناوى خزمەتگوزارى</string>
+    <string name="services">خزمەتگوزارييەكان</string>
+    <string name="set_your_business_hours">كاتژمێرەكانى كاركردنى تايبەت بە تۆ ديارى بكە</string>
+    <string name="setting">ڕێكخستن</string>
+    <string name="setup_only_takes_a_moment_you_ll_be_booking_appointments_in_no_time">ئامادەكارى پێويستى بە چەند خولەكێك هەيە . دەتوانين كاتەكان حجز بكەيت هەر وەختێكى دەتەوێت</string>
+    <string name="sick_info">زانيارى نەخۆشيى</string>
+    <string name="sick_name">ناوى نەخۆش</string>
+    <string name="something_wrong">كێشەيەك هەيە</string>
+    <string name="specialty">پسپۆڕمەندى</string>
+    <string name="staff">كارمەندەكان</string>
+    <string name="staffs">فەرمانبەرەكان</string>
+    <string name="start">سەرەتا</string>
+    <string name="status">بار</string>
+    <string name="sure_for_cancel">ئايا تۆ دڵنيايت لە رەتكردنەوە؟</string>
+    <string name="take_appointment">كاتێك وەرگرە</string>
+    <string name="time_">كات :</string>
+    <string name="time_duration">"ماوەى كات "</string>
+    <string name="title_activity_activityappointment">بۆ</string>
+    <string name="today">ڕۆژ</string>
+    <string name="tomorrow">بەيانى</string>
+    <string name="try_again">جارێكى تر هەوڵ بدە</string>
+    <string name="type_a_comment">كۆمێنتێك بنووسە ...</string>
+    <string name="type_service">خزمەتگوزارى بنووسە</string>
+    <string name="unlimit">سنووردار نييە</string>
+    <string name="update_service">تازەكردنەوەى خزمەتگوزارى</string>
+    <string name="update_staff">تازەكردنەوەى فەرمانبەرەكان</string>
+    <string name="visit_date">ڕێكەوتى سەردانيكردن</string>
+    <string name="visit_time">كاتى سەردانيكردن</string>
+    <string name="we_ll_get_you_booking_appointments_in_no_time_next">دواتر حجزكردنى كاتەكان بەدەست دەهێنين لە هەر وەختێك بێت</string>
+    <string name="working_hours">كاتژمێرەكانى كاركردن</string>
+    <string name="you_can_define_and_change_your_staff_password">دەتوانيت تێپەڕەوشەى تايبەت بە تۆ بۆ فەرمانبەرەكان ديارى بكەيت و بيگۆڕيت</string>
+    <string name="your_bio">سيڤى تۆ</string>
+    <string name="your_business">كارەكەت</string>
+    <string name="your_gps_seems_to_be_disabled">وا ديارە كە GPS تۆ لە كاركەوتووە، ئايا دەتەوێ كار بكات؟</string>
+    <string name="about_us" translatable="false">ئێمە كێين</string>
+    <string name="update">تازەكردنەوەى</string>
+    <string name="add_image">زيادكردنى وێنە</string>
+    <string name="back">گەڕانەوە</string>
+    <string name="co_worker_password">تێپەڕەوشەى كارمەندى هاوبەش</string>
+    <string name="complete">تەواوبوو</string>
+    <string name="finish">كۆتايى هاتن</string>
+    <string name="next">ئەوەى دواتر</string>
+    <string name="open">بكەرەوە</string>
+    <string name="suggest_appointment">پێشنیاری خاوەن پیشە بکە</string>
+    <string name="welcome">بەخێربێيت</string>
+    <string name="address_us">"ناونيشان: هەولێر ـ گوندى ئيتاڵى ١ ـ ڤێلا ٥٩١ "</string>
+
+
+
+    <!--<string-array name="select_language">
+        <item>English</item>
+        <item>عەرەبى</item>
+        <item>كوردی</item>
+    </string-array>-->
+
+    <string name="country_list">وڵات</string>
+    <string name="select_country">Welatek hilbijêrin</string>
+    <string name="select_country_first">تكايە وڵاتێك هەڵبژێرە</string>
+    <string name="select_category">چینەکە هەڵبژێرە</string>
+    <string name="category">چين</string>
+
+    <string name="doctor_name">ناو</string>
+    <string name="doctor_mobile">ژمارەی تەلەفۆن</string>
+    <string name="doctor_pecialty">پسپۆڕی</string>
+    <string name="country">وڵات (بە بژاردەيە)</string>
+    <string name="city_optional"> پارێزگا (بە بژاردەيە) </string>
+
+    <string name="notifications">نامە</string>
+
+    <string name="filteras">نزيكترين مه ن:</string>
+
+</resources>

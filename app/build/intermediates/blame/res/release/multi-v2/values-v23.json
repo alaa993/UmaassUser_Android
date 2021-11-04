@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/alaa/Downloads/UmaassUser_Android-master/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/alaa/.gradle/caches/transforms-2/files-2.1/f9568c7ddb047848fb61339c3021da6d/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,320",
+                        "endLines": "5,9",
+                        "endColumns": "10,10",
+                        "endOffsets": "315,588"
+                    },
+                    "to": {
+                        "startLines": "65,69",
+                        "startColumns": "4,4",
+                        "startOffsets": "4252,4517",
+                        "endLines": "68,72",
+                        "endColumns": "10,10",
+                        "endOffsets": "4512,4785"
+                    }
+                },
+                {
+                    "source": "/Users/alaa/.gradle/caches/transforms-2/files-2.1/82ef7207cd7600dbb9880b318783711c/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1371,2267,2386,2513,2735,2959,3074,3181,3294",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1366,2262,2381,2508,2730,2954,3069,3176,3289,3519"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,32,46,47,48,51,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "633,768,903,978,1065,1949,2845,2964,3091,3313,3537,3652,3759,3872",
+                        "endLines": "14,15,16,17,31,45,46,47,50,54,55,56,57,61",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "763,898,973,1060,1944,2840,2959,3086,3308,3532,3647,3754,3867,4097"
+                    }
+                },
+                {
+                    "source": "/Users/alaa/.gradle/caches/transforms-2/files-2.1/c392ec0c5a3d25f6725905d55014c74f/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "62",
+                        "startColumns": "4",
+                        "startOffsets": "4102",
+                        "endLines": "64",
+                        "endColumns": "12",
+                        "endOffsets": "4247"
+                    }
+                },
+                {
+                    "source": "/Users/alaa/.gradle/caches/transforms-2/files-2.1/8bae40c01b5fc50800ec06e0f3d99396/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,208,353,488",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "203,348,483,628"
+                    }
+                }
+            ]
+        }
+    ]
+}

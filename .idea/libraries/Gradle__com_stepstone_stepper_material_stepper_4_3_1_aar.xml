@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.stepstone.stepper:material-stepper:4.3.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a490fc84b2bf4d02b3ff6f744f5e8dd/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a490fc84b2bf4d02b3ff6f744f5e8dd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a490fc84b2bf4d02b3ff6f744f5e8dd/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a490fc84b2bf4d02b3ff6f744f5e8dd/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

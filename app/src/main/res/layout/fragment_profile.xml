@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/toolbar_color"
+            android:elevation="@dimen/toolbar_elevation">
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <include layout="@layout/logo_in_toolbar" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/swipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:descendantFocusability="blocksDescendants">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:descendantFocusability="blocksDescendants"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/card_color"
+                            android:orientation="horizontal"
+                            android:paddingStart="15dp"
+                            android:paddingTop="20dp"
+                            android:paddingEnd="15dp"
+                            android:paddingBottom="10dp">
+
+                            <net.umaass_user.app.utils.CircleImageView
+                                android:id="@+id/imgProfile"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/profile" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/txtName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start|center"
+                                    android:paddingStart="10dp"
+                                    android:text="Younes Shahryari"
+                                    android:textColor="@color/colorPrimaryText"
+                                    android:textSize="19dp"
+                                    android:textStyle="bold" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/txtPhone"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start|center"
+                                    android:paddingStart="10dp"
+                                    android:text="09179055600"
+                                    android:textColor="@color/secondaryPrimaryText"
+                                    android:textSize="14dp" />
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/txtEmail"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="start|center"
+                                    android:paddingStart="10dp"
+                                    android:text="younes@gmail.com"
+                                    android:textColor="@color/secondaryPrimaryText"
+                                    android:textSize="14dp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/card_color"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/divider_color" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/btnSetting"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:drawableStart="@drawable/ic_settings_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:gravity="start|center"
+                                android:paddingStart="20dp"
+                                android:text="@string/edit_profile"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textSize="16dp" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/btn_suggestion"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:drawableStart="@drawable/ic_settings_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:gravity="start|center"
+                                android:paddingStart="20dp"
+                                android:text="@string/suggest_appointment"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textSize="16dp"
+                                android:visibility="gone" />
+
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/btnAboutUs"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:drawableStart="@drawable/ic_info_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:gravity="start|center"
+                                android:paddingStart="20dp"
+                                android:text="@string/about_us"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textSize="16dp" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/btnContactUs"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:drawableStart="@drawable/ic_email_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:gravity="start|center"
+                                android:paddingStart="20dp"
+                                android:text="@string/contact_us"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textSize="16dp" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/btnLanguage"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:drawableStart="@drawable/ic_language_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:gravity="start|center"
+                                android:paddingStart="20dp"
+                                android:text="@string/language"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textSize="16dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:id="@+id/btnNotifications"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="48dp"
+                                    android:layout_weight="1"
+                                    android:drawablePadding="10dp"
+                                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                                    android:gravity="start|center"
+                                    android:paddingStart="20dp"
+                                    android:text="@string/notifications"
+                                    android:textColor="@color/colorPrimaryText"
+                                    android:textSize="16dp"
+                                    app:drawableStartCompat="@drawable/notification"
+                                    app:drawableTint="@color/icon_color" />
+
+                                <TextView
+                                    android:id="@+id/tvCount"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="16dp"
+                                    android:background="@drawable/circle_textview_shape"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    app:layout_constraintBottom_toBottomOf="@+id/materialTextView4"
+                                    app:layout_constraintEnd_toEndOf="@+id/materialTextView4"
+                                    app:layout_constraintHorizontal_bias="0.27"
+                                    app:layout_constraintStart_toStartOf="@+id/materialTextView4"
+                                    app:layout_constraintTop_toTopOf="@+id/materialTextView4"
+                                    tools:text="8" />
+                            </LinearLayout>
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/btnShare"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:drawableStart="@drawable/ic_share_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:gravity="start|center"
+                                android:paddingStart="20dp"
+                                android:text="@string/share"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textSize="16dp" />
+
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/btnLogout"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:drawableStart="@drawable/ic_exit_to_app_black_24dp"
+                                android:drawablePadding="10dp"
+                                android:foreground="?attr/selectableItemBackgroundBorderless"
+                                android:gravity="start|center"
+                                android:paddingStart="20dp"
+                                android:text="@string/log_out"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textSize="16dp" />
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/divider_color" />
+
+
+                        </LinearLayout>
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="start|center"
+                            android:paddingStart="10dp"
+                            android:paddingTop="10dp"
+                            android:text="@string/my_favorites"
+                            android:textColor="@color/secondaryPrimaryText"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:id="@+id/recyclerView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:clipToPadding="false"
+                                android:paddingBottom="20dp" />
+
+                            <net.umaass_user.app.ui.components.EmptyView
+                                android:id="@+id/emptyView"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:minHeight="150dp"
+                                android:visibility="gone" />
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

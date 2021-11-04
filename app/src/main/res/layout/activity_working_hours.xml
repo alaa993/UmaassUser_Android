@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/toolbar_color"
+            android:elevation="@dimen/toolbar_elevation">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="umaass"
+                        android:textColor="@color/toolbar_text_color"
+                        android:textSize="@dimen/toolbar_text_size" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/booking_appointment"
+                        android:textColor="@color/toolbar_text_color"
+                        android:textSize="@dimen/toolbar_text_size_small" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/btnBack"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_gravity="left"
+                    android:background="?attr/actionBarItemBackground"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_arrow_back_white"
+                    android:tint="@color/toobar_icon_color" />
+
+            </FrameLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/working_hours"
+                        android:textColor="@color/colorPrimaryText"
+                        android:textSize="19dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/provider_time_schedule"
+                        android:textColor="@color/secondaryPrimaryText"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layAnim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/card_color"
+                    android:orientation="vertical">
+
+                    <net.umaass_user.app.ui.components.DayRangeTimeView
+                        android:id="@+id/vSunday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:dr_text="@string/sunday" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_color" />
+
+                    <net.umaass_user.app.ui.components.DayRangeTimeView
+                        android:id="@+id/vMonday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:dr_text="@string/monday" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_color" />
+
+                    <net.umaass_user.app.ui.components.DayRangeTimeView
+                        android:id="@+id/vTuesday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:dr_text="@string/tuesday" />
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_color" />
+
+
+                    <net.umaass_user.app.ui.components.DayRangeTimeView
+                        android:id="@+id/vWednesday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:dr_text="@string/wednesday" />
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_color" />
+
+                    <net.umaass_user.app.ui.components.DayRangeTimeView
+                        android:id="@+id/vThursday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:dr_text="@string/thursday" />
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_color" />
+
+                    <net.umaass_user.app.ui.components.DayRangeTimeView
+                        android:id="@+id/vFriday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:dr_text="@string/friday" />
+
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_color" />
+
+                    <net.umaass_user.app.ui.components.DayRangeTimeView
+                        android:id="@+id/vSaturday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:dr_text="@string/saturday" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_color" />
+
+                </LinearLayout>
+
+                <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id_3" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

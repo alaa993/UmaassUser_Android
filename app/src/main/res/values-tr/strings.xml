@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">umaass</string>
+
+    <array name="tab_name">
+        <item>@string/book</item>
+        <item>@string/appointment</item>
+        <item>@string/profile</item>
+    </array>
+
+    <string name="requests">istek</string>
+    <string name="setting">ayar</string>
+    <string name="files">dosyalarım</string>
+    <string name="book">kitap</string>
+    <string name="appointment">Randevular</string>
+    <string name="edit_profile">Profili Düzenle</string>
+    <string name="select_city">Şehir seç</string>
+    <string name="gender">Cinsiyet</string>
+    <string name="distance">mesafe</string>
+    <string name="unlimit">sınırsız</string>
+    <string name="meter">Meter</string>
+    <string name="kilometer">Kilometer</string>
+
+    <string name="saved">kayıt etmek</string>
+
+
+    <string name="suggestion_doctor">Bir Önerisi</string>
+    <string name="country">Ülke (Opsiyonel)</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="how_do_we_work">Nasıl Çalışıyoruz</string>
+    <string name="terms_and_conditions">Şartlar ve koşullar</string>
+    <string name="my_files">Benim dosyalarım</string>
+
+    <string name="doctor_name">adı</string>
+    <string name="city_optional">Ülke (Opsiyonel)</string>
+
+    <string name="about_us">Hakkımızda</string>
+
+    <string name="prescription">Prescription</string>
+    <string name="address">Adres</string>
+    <string name="your_bio">biyografin</string>
+    <string name="register">Kayıt ol</string>
+    <string name="birthday">Birthday</string>
+    <string name="email">E-posta</string>
+    <string name="gallery">Fotoğraf Galerisi</string>
+
+    <string name="sunday">Pazar</string>
+    <string name="to" translatable="false">To</string>
+
+    <string name="service_name">hizmet adı</string>
+
+    <string name="delete">Sil</string>
+    <string name="title">Başlık</string>
+    <string name="done">Bitti</string>
+    <string name="all">herşey</string>
+
+    <string name="pending">Bekliyor</string>
+    <string name="name">Doktorun adı </string>
+    <string name="service">Hizmet</string>
+    <string name="comments">Yorumlar</string>
+    <string name="working_hours">Çalışma saatleri</string>
+    <string name="services">Hizmetler</string>
+
+    <string name="edit_industry">Sektörü düzenle</string>
+    <string name="edit_location">Konumunu düzenle</string>
+    <string name="contact_us">Bize Ulaşın</string>
+    <string name="log_out">Çıkış Yap</string>
+    <string name="hours">Saatler</string>
+    <string name="set_your_business_hours">iş saatlerinizi ayarlayın</string>
+    <string name="let_your_customers_know_when_you_are_open">Let your customers know when you are open</string>
+    <string name="location">yer</string>
+    <string name="add_the_services_you_offer">sunduğunuz hizmetleri ekleyin</string>
+
+    <string name="time_duration">zaman aralığı</string>
+    <string name="price">fiyate</string>
+    <string name="add_your_staff">Personelinizi ekleyin</string>
+    <string name="user_name">Kullanıcı adı</string>
+
+    <string name="permission">izin</string>
+    <string name="cancel">İptal etmek</string>
+
+    <string name="industry">endüstri</string>
+    <string name="city">Kent</string>
+    <string name="your_business">Name Of The Clinic</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="male">Erkek</string>
+    <string name="female">Kadın</string>
+    <string name="choose_gender">Cinsiyet Seçin</string>
+    <string name="price_">fiyat :</string>
+    <string name="today">Bugün</string>
+    <string name="tomorrow">Yarın</string>
+    <string name="select_a_date">Tarih seç</string>
+    <string name="select_date">Tarih seç</string>
+    <string name="date_">Tarih :</string>
+    <string name="time_">zaman :</string>
+    <string name="confirmed">onaylanmış</string>
+
+    <string name="deleted">Sil</string>
+    <string name="choose_industry">Sektör Seçin</string>
+
+    <string name="city_2dot">Kent :</string>
+    <string name="share">Paylaş</string>
+    <string name="version">versiyon</string>
+    <string name="welcome_to_umaass" translatable="false">Welcome To umaass</string>
+    <string name="login">Oturum aç</string>
+    <string name="status">statü</string>
+    <string name="about">hakkında</string>
+    <string name="provider_time_schedule">Sağlayıcı Zaman Çizelgesi</string>
+    <string name="filter">Filtrele</string>
+    <string name="near_me">Bana yakın</string>
+    <string name="provider">Sağlayıcı</string>
+    <string name="appointment_date">randevu tarihi</string>
+    <string name="information">bilgi</string>
+    <string name="for_me">benim için</string>
+    <string name="full_name">Ad Soyad</string>
+    <string name="rules">Kurallar</string>
+    <string name="agree">Katılıyorum</string>
+    <string name="my_favorites">Benim favorim</string>
+
+    <string name="age_">yaş :</string>
+
+    <string name="name_">İsim :</string>
+    <string name="phone_">Telefon :</string>
+
+    <string name="age">yaş</string>
+    <string name="description">Açıklama</string>
+
+    <string name="successful_operation">Başarılı Operasyon</string>
+
+    <string name="withdraw">Withdraw</string>
+    <string name="request">istek</string>
+
+    <string name="send">Gönder</string>
+
+
+
+    <!--navigation_drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">ayar</string>
+    <string name="tax">Tax</string>
+
+    <string name="sample_mail_id">name@example.com</string>
+    <string name="mobile_no">9876543210</string>
+    <string name="password_txt">******</string>
+    <string name="save">kayıt etmek</string>
+
+    <!-- Error Messages-->
+    <string name="something_went_wrong">bir şeyler yanlış gitti.</string>
+
+    <string name="request_accept">İstek başarıyla kabul edildi</string>
+    <string name="sample_amount">1450</string>
+
+
+    <string name="ratetrip">Gezinizi değerlendirin</string>
+
+    <string name="rate_user">Sunmak</string>
+
+    <!--Side Navigation Menu -->
+    <string name="home">Ev</string>
+
+    <string name="cancel_confirm">Geziyi iptal etmek istediğinden emin misin?</string>
+    <string name="doctor_mobile">Cep Telefonu</string>
+    <string name="doctor_pecialty">Uzmanlığı</string>
+
+    <string name="submit">Sunmak</string>
+    <string name="summary">Summary</string>
+
+    <string name="email_exist">o e-posta çoktan alındı</string>
+
+    <string name="select_language">Dil Seçin</string>
+
+    <string name="alphabets">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="kurdish">Kurdî</string>
+
+    <string name="enter_your_mobile_number">telefon numaranızı girin</string>
+
+    <string name="welcome_back_enter_otp_to_continue">Devam etmek için OTP yi girin</string>
+    <string name="otp_not_received_resend_again">OTP alınmadı, tekrar gönder</string>
+
+    <string name="email_optional">E-posta (isteğe bağlı)</string>
+
+    <string name="saturday">Cumartesi</string>
+    <string name="monday">Pazartesi</string>
+    <string name="tuesday">Salı</string>
+    <string name="wednesday">Çarşamba</string>
+    <string name="thursday">Perşembe</string>
+    <string name="friday">Cuma</string>
+    <string name="next">Sonraki</string>
+    <string name="back">Geri</string>
+    <string name="add_image">resim eklemek</string>
+    <string name="welcome">Hoşgeldiniz</string>
+    <string name="address_us">Erbil - Italian Village 1 - Villa 591</string>
+    <string name="select_action">Eylemi seç </string>
+    <string name="select_gallery">Galeriden fotoğraf seçin</string>
+    <string name="select_camera"> Kameradan fotoğraf çekin </string>
+
+    <string name="request_successfully"> Talebiniz başarıyla kaydedildi </string>
+    <string name="select_country_first">Lütfen önce ülkeyi seçin</string>
+    <string name="notifications">İleti</string>
+    <string name="sign_in">oturum aç</string>
+    <string name="sub_title_wellcom">Kayıt ol</string>
+    <string name="phone_number">Telefon numarası</string>
+    <string name="call">Whatsapp ile ara</string>
+    <string name="distance_price">Distance fare</string>
+    <string name="base_price">Base fare</string>
+
+
+
+
+
+
+
+
+
+
+
+    <string name="your_trips">Gezileriniz</string>
+    <string name="select_city_field">Lütfen şehrinizi seçin</string>
+    <string name="select_country">Bir ülke seç</string>
+    <string name="country_list">Ülke</string>
+    <string name="category">Kategori</string>
+    <string name="please_select_city">Lütfen bir şehir seçin</string>
+    <string name="title_activity_wellcom">bizimle başlayın ve 3 milyon hastayla bağlantı kurun</string>
+    <string name="duration">Süresi</string>
+    <string name="car_number">Araba numarası</string>
+    <string name="sick_name">Hasta Adı</string>
+    <string name="sick_info">Hasta bilgisi</string>
+    <string name="reference_number">Referans numarası :</string>
+    <string name="review">Bir inceleme yapın</string>
+    <string name="add">Ekle</string>
+    <string name="pls_try_again">Lütfen tekrar deneyin</string>
+    <string name="Apply">Uygulamak</string>
+    <string name="specialty">ihtisas</string>
+    <string name="order_by">Tarafından sipariş</string>
+    <string name="dfault">Varsayılan</string>
+    <string name="a2zSort">A-Z sırala</string>
+    <string name="title_activity_activityappointment">Etkinlik randevu</string>
+    <string name="take_appointment">Al Randevu</string>
+    <string name="appointment_phone">Randevu Telefonu</string>
+    <string name="central_phone">Merkezi Telefon</string>
+    <string name="accept">Kabul</string>
+    <string name="are_you_sure">Emin misiniz?</string>
+    <string name="newest">En yeni</string>
+    <string name="most_visited">En çok ziyaret</string>
+    <string name="oldest">En eski</string>
+    <string name="search">Arama</string>
+    <string name="place">mekân</string>
+    <string name="search_and_filter">Arama Ve Filtre</string>
+    <string name="grade">Derece</string>
+    <string name="first_name">İlk Adı</string>
+    <string name="last_name">Soyadı</string>
+    <string name="count">saymak</string>
+    <string name="sum_price">Toplam Fiyat</string>
+    <string name="try_again">Lütfen tekrar deneyin</string>
+    <string name="something_wrong">Bir şeyler yanlış</string>
+    <string name="login_cancelled">Giriş İptal Edildi</string>
+    <string name="pls_wait">Lütfen bekle...</string>
+    <string name="not_empty">Boş olmamalı</string>
+    <string name="date">Tarih</string>
+    <string name="type_service">Tür hizmet</string>
+    <string name="month_">Ay :</string>
+    <string name="month">Ay</string>
+    <string name="day_">Gün :</string>
+    <string name="day">Gün</string>
+    <string name="edit">Düzenle</string>
+    <string name="no_show">Gösteri Yok</string>
+    <string name="duration_">Süresi :</string>
+    <string name="phone">Telefon</string>
+    <string name="not_valid">Geçerli değil</string>
+    <string name="we_ll_get_you_booking_appointments_in_no_time_next">Sizin için daha sonra randevu alacağız</string>
+    <string name="setup_only_takes_a_moment_you_ll_be_booking_appointments_in_no_time">Kur yalnızca bir dakikanızı alır. yakında randevu alacaksınız.</string>
+    <string name="staffs">Personel</string>
+    <string name="roll">Rulo</string>
+    <string name="don_t_worry_you_can_always_edit_these_later">Üzülmeyin! bunları daha sonra her zaman düzenleyebilirsin</string>
+    <string name="password">Parola</string>
+    <string name="addservices">Hizmet Ekle</string>
+    <string name="reviews">inceleme</string>
+    <string name="no_items_found">hiçbir öğe bulunamadı</string>
+    <string name="add_review">İnceleme Ekle</string>
+    <string name="request_status">Talep durumu :</string>
+    <string name="staff">Personel</string>
+    <string name="define_your_staff_password">Çalışanlar Şifre tanımlayın</string>
+    <string name="you_can_define_and_change_your_staff_password">Personel şifrenizi tanımlayabilir ve değiştirebilirsiniz</string>
+    <string name="admin_password">yönetici şifresi</string>
+    <string name="co_worker_password">Co-İşçi Şifre</string>
+    <string name="assistant_password">Asistan Şifre</string>
+    <string name="booking_appointment">Rezervasyon Randevu</string>
+    <string name="are_you_sure_for_delete">Eğer silme için emin misiniz?</string>
+    <string name="your_gps_seems_to_be_disabled">GPS devre dışı gibi görünüyor, etkin hale istersin?</string>
+    <string name="gps_is_off">GPS kapalı</string>
+    <string name="start">başla</string>
+    <string name="end">Bitir</string>
+    <string name="change_status">Durumu Değiştir</string>
+    <string name="choose_date">Tarih Seçin</string>
+    <string name="balance_is_not_enough">Denge Yeterli Değil</string>
+    <string name="choose_service">Hizmet Seçin</string>
+    <string name="gender_">Cinsiyet :</string>
+    <string name="sure_for_cancel">İptal için emin misiniz?</string>
+    <string name="visit_date">Ziyaret Tarihi</string>
+    <string name="for_another">Başka için</string>
+    <string name="move">hamle</string>
+    <string name="code_2dot">kodu :</string>
+    <string name="bookmarks">İmleri</string>
+    <string name="exit">çıkış</string>
+    <string name="are_you_sure_for_logout">Çıkış yapmak istediğinizden emin misiniz?</string>
+    <string name="please_set_your_time">Lütfen Zamanınızı Ayarlayın</string>
+    <string name="please_select_a_location">Lütfen bir yer seçin</string>
+    <string name="update_service">Güncelleme Servisi</string>
+    <string name="add_service">Hizmet Ekle</string>
+    <string name="add_staff">Personel Ekle</string>
+    <string name="update_staff">Güncelleme Personel</string>
+    <string name="choose_roll">Rulosunu rulo</string>
+    <string name="choose_city">Şehir seç</string>
+    <string name="close">kapatmak</string>
+    <string name="open">Açık</string>
+    <string name="see">Görmek</string>
+    <string name="expert">Uzman</string>
+    <string name="closest">En yakın :</string>
+    <string name="type_a_comment">Bir yorumu yazın...</string>
+    <string name="visit_time">Ziyaret Saati</string>
+    <string name="gps_off_message">GPS devre dışı gibi görünüyor, etkin hale istersin?</string>
+    <string name="please_select_date_and_time">Lütfen tarih ve saat seçin</string>
+    <string name="please_check_the_rules">lütfen kuralları kontrol edin</string>
+    <string name="are_you_sure_for_exit">Çıkacağına emin misin?</string>
+    <string name="wallet_not_found">Cüzdan Bulunamadı!</string>
+    <string name="transactions_list">işlemler listesi</string>
+    <string name="charge_code_applied_successfully">Şarj Kod Uygulamalı Başarıyla</string>
+    <string name="withdraw_amount">Miktarı geri çekin</string>
+    <string name="request_has_been_sent_successfully">İstek Başarıyla Gönderildi</string>
+    <string name="balance_is_low">Balance Is Low!</string>
+    <string name="accounts_charge">Hesaplar Şarj</string>
+    <string name="send_money">Para gönder</string>
+    <string name="commission_wallet">komisyon</string>
+    <string name="remain_balance">Kalan Bakiye</string>
+    <string name="charge_by_cash">Nakit ödeme</string>
+    <string name="charge_by_code">koduyla Şarj</string>
+    <string name="transfered_by_user">Kullanıcı tarafından aktarıldı</string>
+    <string name="transfered_to_user">Kullanıcıya aktarıldı</string>
+    <string name="transfered_by_provider">sağlayıcı tarafından Aktarılan</string>
+    <string name="transfered_to_provider">sağlayıcıya Aktarılan</string>
+    <string name="trip">Gezi</string>
+    <!--Show Dailog-->
+    <string name="connect_to_network">Ağa bağlanın veya çıkın</string>
+    <string name="connect_to_wifi">WIFI"'"a bağlanın</string>
+    <string name="quit">Çık</string>
+    <string name="cancel_ride">Sürüşü iptal et</string>
+    <string name="cencel_request">Geziyi iptal etmek istediğinden emin misin?</string>
+    <string name="exit_confirm">Çıkış yapmak istediğinizden emin misiniz?</string>
+    <string name="Introducer_code">Tanıtıcı Kodu</string>
+    <string name="welcome_back">Tekrar hoş geldiniz, devam etmek için oturum açın </string>
+    <string name="enter_your_password">Şifreni gir</string>
+    <string name="i_forgot_my_password">Şifremi Unuttum</string>
+    <string name="i_need_to_create_an_account">Bir hesap oluşturmam gerekiyor</string>
+    <!--Google map-->
+    <!--string name="google_map_api">AIzaSyDStEHD8qw0Ng7lDxM5h3ZI5DtlMQVwd_w</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="please_wait">Lütfen bekle&#8230;</string>
+    <string name="invalid_charge_code">Geçersiz Şarj Kodu</string>
+    <string name="wallet_id">Cüzdan kimliği</string>
+    <string name="rejected">Reddedildi</string>
+    <string name="balance">Denge</string>
+    <string name="charge_code">Şarj Kodu</string>
+    <string name="are_you_sure_for_send_money_to">Para göndereceğinizden emin misiniz</string>
+    <string name="please_enter_your_code">Lütfen kodunuzu giriniz</string>
+    <string name="please_enter_wallet_id">Lütfen cüzdan kimliğini girin</string>
+    <string name="please_enter_amount">Lütfen miktarı girin</string>
+    <string name="wallet_commission">komisyon</string>
+    <string name="waitingForApproval">Yetkilimiz tarafından hesabınızın doğrulanmasını bekliyorum.</string>
+
+    <!--<string name="facebook_app_id">141223863110656</string>-->
+    <!--Activity Begin-->
+    <string name="get_moving_with_taxialaan">Get moving with TaxiAlaan - Captain</string>
+    <string name="enter_your_mail_id">Posta kimliğinizi girin</string>
+    <string name="or_connect_with_social_media">Veya sosyal ile bağlantı kurun</string>
+
+    <!--Activity Email -->
+    <string name="whats_your_mail_address">E-posta adresin nedir?</string>
+    <string name="Introducer">Grubum</string>
+    <!-- Activity ForgetPassword -->
+    <string name="recover_password">Kurtarma için posta kimliğinizi girin</string>
+    <string name="update_success">Profil güncellendi.</string>
+    <!-- Edit Activity-->
+    <string name="change_password">Şifreyi değiştirmek mi istiyorsunuz?</string>
+    <!--Change Password-->
+    <string name="change_password_title">Şifre değiştir</string>
+    <string name="current_password">Şimdiki Şifre</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="confirm_password">Yeni Şifreyi Onaylayın</string>
+    <string name="please_enter_current_pass">Lütfen mevcut şifreyi girin.</string>
+    <string name="please_enter_new_pass">Lütfen yeni şifre giriniz.</string>
+    <string name="please_enter_confirm_pass">Lütfen onay şifresini girin.</string>
+    <string name="different_passwords">Parola eşleşmiyor.</string>
+    <string name="write">Yorumlarınızı yazın</string>
+    <!--Offline Activity -->
+    <string name="go_online">git Çevrimiçi</string>
+    <string name="go_offline">ÇEVRİMDIŞI OL</string>
+    <string name="request_cancel">İsteği iptal ettiniz</string>
+    <string name="no_routes_available">Rota yok</string>
+    <string name="something_went_wrong_net">Bir şeyler ters gitti, lütfen internet bağlantısını kontrol edin.</string>
+    <string name="oops_connect_your_internet">Oops! İnternetinizi bağlayın.</string>
+    <string name="server_down">Sunucuya erişilemiyor.</string>
+    <string name="please_try_again">Lütfen tekrar deneyin.</string>
+    <string name="email_validation">E-posta kimliğinizi girin.</string>
+    <string name="not_valid_email">Geçerli bir e-posta kimliği değil.</string>
+    <string name="password_validation">Şifre boş bırakılamaz.</string>
+    <string name="first_name_empty">İsim gerekli.</string>
+    <string name="last_name_empty">Soyad gerekli.</string>
+    <string name="mobile_number_empty">Mobil numarası gerekli.</string>
+    <string name="request_reject">İstek başarıyla reddedildi</string>
+
+    <!--Approval status-->
+    <string name="approved">Onaylandı</string>
+    <string name="banned">yasaklı</string>
+    <string name="waiting_for_approval">Onay bekleniyor</string>
+
+    <!--Wallet Fragment-->
+    <string name="your_wallet_amount">Cüzdan tutarınız</string>
+    <!--Invalid Username and Password-->
+    <string name="invalid_credentials">Invalid Username and Password.</string>
+
+    <!--True or False -->
+    <string name="True" translatable="false">true</string>
+    <string name="False" translatable="false">false</string>
+
+    <!--Your Trips-->
+    <string name="history">Tarihçe</string>
+    <string name="no_trips">Yolculuk yok.</string>
+    <string name="no_upcoming_trips">Yaklaşan gezi yok.</string>
+    <string name="no_rides">Tamamlanan yolculuk yok.</string>
+    <string name="upcoming">Yaklaşan</string>
+    <string name="past">Geçmiş</string>
+    <string name="payment_methods">Ödeme metodları</string>
+    <string name="sample_name">Will Smith</string>
+    <string name="pasttrip">Geçmiş Geziler</string>
+    <string name="upcomingtrip">Yaklaşan Geziler</string>
+
+    <!--Flow status -->
+    <string name="tap_when_arrived">GELDİĞİNDE DOKUNUN</string>
+    <string name="tap_when_pickedup">SEÇTİĞİNDE DOKUNUN</string>
+    <string name="tap_when_dropped">KESİLDİĞİNDE DOKUNUN</string>
+    <string name="tap_when_paid">ÖDEMEYİ ONAYLA</string>
+    <string name="total_rides">Sürmek TOPLAM YOK</string>
+    <string name="total_earnings">toplam kazanç</string>
+    <string name="amount">Tutar</string>
+
+    <string name="reject">reddetmek</string>
+    <string name="connect_with_social_media">Veya socia ile bağlantı kurun</string>
+    <string name="wallet">Cüzdan</string>
+    <string name="help">Yardım</string>
+    <string name="earnings">Kazançlar</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="valid_image">Resim bulunamadı</string>
+    <string name="user_no_mobile">Kullanıcı geçerli bir cep telefonu numarası yok.</string>
+    <string name="incorrect_otp">Yanlış OTP</string>
+    <string name="otp_validation">OTP alanı gerekli</string>
+    <string name="confirm_password_validation">Şifre eşleşmiyor</string>
+    <string name="confirm_validation">Onay şifresi 6"'"dan büyük olmalıdır</string>
+    <string name="new_validation">Yeni şifre 6"'"dan büyük olmalıdır</string>
+    <string name="note">Not: Lütfen otp gönderimini kayıtlı e-posta adresinize girin</string>
+    <string name="secrete_code">OTP"'"yi girin</string>
+    <string name="reset_password">Şifreyi yenile</string>
+    <string name="request_time_out">İstek zaman aşımına uğradı</string>
+    <string name="no_services">Hizmet atanmadı</string>
+    <string name="choose_acc">Bir hesap seçin</string>
+    <string name="facebook_name">Facebook</string>
+    <string name="google_name">Google</string>
+    <string name="commission">Servis bedeli</string>
+    <string name="no_comments">Yorum yok</string>
+    <string name="profile">Profil</string>
+    <string name="services_requested">Servis talep edildi</string>
+    <string name="sos_confirm">Acil aramaya devam etmek istediğinizden emin misiniz?</string>
+    <string name="choose_type">Tür seçin</string>
+    <string name="invoice"> - Fatura</string>
+    <string name="pick_up">Konum al </string>
+    <string name="drop_at">Bırakma Yeri </string>
+    <string name="reason_to_cancel">İptal etme nedeni</string>
+    <string name="booking_id_colon">Rezervasyon Kimliği : </string>
+    <string name="booking_id">Rezervasyon Kimliği</string>
+    <string name="reason">Nedeni</string>
+    <string name="time">Zaman</string>
+    <string name="target">Hedef \nTamamlandı</string>
+
+    <string name="revenue">GELİR</string>
+    <string name="schedule_rides">PROGRAMLANMIŞ SÜRÜŞ SAYISI</string>
+    <string name="canceled_rides">İPTAL EDİLEN BİNALAR</string>
+    <string name="rides">Sürmek</string>
+    <string name="upcoming_rides">Yaklaşan yolculuklar</string>
+    <string name="help_msg">Ekip çalışanımız sizinle \ n yakında iletişime geçecek</string>
+    <string name="no_address">Adres yok</string>
+    <string name="remove_person_subcategory">  Bu kişiyi alt kategorinizden çıkarmak istediğinizden emin misiniz?</string>
+    <string name="person_your_introducer"> bu kişinin introduserin?</string>
+    <string name="send_notification"> Gönder Bildirim </string>
+    <string name="warning">Uyarı</string>
+    <string name="finish">Bitir</string>
+    <string name="update">Güncelleme</string>
+    <string name="total">Toplam</string>
+    <string name="cash">NAKİT</string>
+    <string name="card">KART</string>
+    <string name="resend_otp">OTP"'"yi yeniden gönder</string>
+    <string name="what_s_your_phone_number">Telefon numaran ne?</string>
+    <string name="choose_language">Dilinizi seçin</string>
+    <string name="register_title">Kayıt olmak için bilgilerinizi girin</string>
+    <string name="first_name_no_number">İlk isim sayıları kabul etmiyor</string>
+    <string name="last_name_no_number">Soyadı sayı kabul etmiyor</string>
+    <string name="password_size">Parola boyutu en az 6 olmalıdır</string>
+    <string name="sms_verification">Telefon Numarası Doğrulaması</string>
+    <string name="select_country_code">Ülke kodu</string>
+    <string name="select_country_code_alert">Ülke Kodunu Seçin</string>
+    <string name="confirm">Onaylamak </string>
+    <string name="language_update">Dil güncelleniyor ... Lütfen bekleyin</string>
+    <string name="language">Dili değiştir</string>
+    <string name="mobile_number_validation">Lütfen cep telefonu numarasını girin</string>
+    <string name="valid_mobile_number">Lütfen geçerli bir cep telefonu numarası girin</string>
+    <string name="error_enter_otp">Lütfen OTP girin</string>
+    <string name="error_please_enter_correct_otp">Lütfen doğru OTP"'"yi girin</string>
+    <string name="otp_sent_ur_number">OTP numaranıza gönderildi</string>
+    <string name="Pay_By_User_Wallet">Kullanıcı Cüzdanıyla Öde</string>
+    <string name="Pay_By_User_In_Cash">Kullanıcı Tarafından Nakit Öde</string>
+    <string name="Transfer_To_User_Wallet">Kullanıcı Cüzdanına Aktar</string>
+    <string name="AmountisLess">Girilen Miktar Trip Pirce"'"den Az!:</string>
+    <string name="Travel_costs">Seyahat Maliyetleri</string>
+    <string name="Discount">İndirim</string>
+
+    <string name="internet">Lütfen internet bağlantınızı kontrol edin. Zayıf veya bağlantısı kesilmiş olabilir</string>
+    <string name="complete">Tamamlayınız</string>
+    <string name="suggest_appointment">Randevu Öner</string>
+    <string name="new_version_available">Qdor uygulamasının daha yeni bir sürümü mevcut, şimdi yükseltmek için GÜNCELLE"'"ye tıklayın?</string>
+    <string name="doctor_subset"> Bu kişi sizin alt kümenizdir </string>
+    <string name="another_introducer">  Bu kişinin başka bir tanıtıcısı var </string>
+    <string name="filteras">Bana en yakın</string>
+</resources>

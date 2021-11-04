@@ -1,0 +1,4 @@
+# Referenced at /Users/alaa/Downloads/UmaassUser_Android-master/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:35
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/alaa/Downloads/UmaassUser_Android-master/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:35
+-keep class net.umaass_user.app.application.G { <init>(); }

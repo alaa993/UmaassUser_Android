@@ -1,0 +1,7 @@
+#Tue Jul 06 11:29:40 AST 2021
+base.1=/Users/alaa/Downloads/UmaassUser_Android-master/app/build/intermediates/transforms/dexMerger/release/0
+path.1=classes2.dex
+base.0=/Users/alaa/Downloads/UmaassUser_Android-master/app/build/intermediates/transforms/dexMerger/release/0
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

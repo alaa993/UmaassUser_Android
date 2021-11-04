@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\StudioProjects\\android_umaassuser\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v15\\values-v15.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\AndPyDev\\.gradle\\caches\\transforms-2\\files-2.1\\3a93a0e62fdaf1be4680a43eb6863669\\res\\values-v15\\values-v15.xml",
+                    "from": {
+                        "startLines": "2,5,8,11,14",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,201,333,471,599",
+                        "endLines": "4,7,10,13,16",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "196,328,466,594,732"
+                    }
+                }
+            ]
+        }
+    ]
+}

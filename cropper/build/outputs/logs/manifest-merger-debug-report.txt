@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:1:1-7:12
+INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:4:5-45
+		INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+		INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+		ADDED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:1:1-7:12
+		INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+		ADDED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:1:1-7:12
+		INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:3:5-63
+application
+ADDED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:6:5-48
+	android:allowBackup
+		ADDED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml:6:18-45
+uses-sdk
+INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+		ADDED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+		INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+		ADDED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml
+		INJECTED from F:\StudioProjects\android_umaassuser\cropper\src\main\AndroidManifest.xml

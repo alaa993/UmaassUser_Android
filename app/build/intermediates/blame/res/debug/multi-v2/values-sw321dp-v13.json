@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\StudioProjects\\android_umaassuser\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw321dp-v13\\values-sw321dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\AndPyDev\\.gradle\\caches\\transforms-2\\files-2.1\\3a93a0e62fdaf1be4680a43eb6863669\\res\\values-sw321dp-v13\\values-sw321dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,118",
+                        "endColumns": "62,74",
+                        "endOffsets": "113,188"
+                    }
+                }
+            ]
+        }
+    ]
+}

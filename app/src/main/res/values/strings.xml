@@ -1,0 +1,494 @@
+<resources>
+    <string name="app_name">umaass</string>
+
+
+    <string name="FACEBOOK_APP_ID" translatable="false">2278502678859504</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">229c29cb8b563b6af10fbb9a438ef4cb</string>
+    <string name="map_token" translatable="false">AIzaSyDixjezSxgosOnxj5028BOIStLGHeOUCN8</string>
+    <!--<string name="banner_ad_unit_id_3">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="banner_ad_unit_id_1" translatable="false">ca-app-pub-6606021354718512/7032083148</string>
+    <string name="banner_ad_unit_id_2" translatable="false">ca-app-pub-6606021354718512/3546820620</string>
+    <string name="banner_ad_unit_id_3" translatable="false">ca-app-pub-6606021354718512/6033738384</string>
+    <string name="banner_ad_unit_id_4" translatable="false">ca-app-pub-6606021354718512/3023607255</string>
+    <string name="banner_ad_unit_id_5" translatable="false">ca-app-pub-6606021354718512/6987543622</string>
+
+    <array name="tab_name">
+        <item>@string/book</item>
+        <item>@string/appointment</item>
+        <item>@string/profile</item>
+    </array>
+
+    <string name="requests">Requests</string>
+    <string name="setting">Setting</string>
+    <string name="files">Files</string>
+    <string name="book">Book</string>
+    <string name="appointment">Appointment</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="title_activity_activityappointment">Activityappointment</string>
+    <string name="take_appointment">Take Appointment</string>
+    <string name="appointment_phone">Appointment Phone</string>
+    <string name="central_phone">Central Phone</string>
+    <string name="accept">Accept</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="select_city">Select city</string>
+    <string name="order_by">Order by</string>
+    <string name="dfault">Default</string>
+    <string name="a2zSort">A-Z Sort</string>
+    <string name="newest">Newest</string>
+    <string name="most_visited">Most visited</string>
+    <string name="oldest">Oldest</string>
+    <string name="search">Search</string>
+    <string name="gender">Gender</string>
+    <string name="place">Place</string>
+    <string name="search_and_filter">Search And Filter</string>
+    <string name="distance">Distance</string>
+    <string name="unlimit">Unlimit</string>
+    <string name="meter">Meter</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="specialty">Specialty</string>
+    <string name="grade">Grade</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="Apply">Apply</string>
+    <string name="try_again">Please try again</string>
+    <string name="something_wrong">SomeThing wrong</string>
+    <string name="login_cancelled">Login Cancelled</string>
+    <string name="pls_wait">Please wait...</string>
+    <string name="not_empty">Should not be empty</string>
+    <string name="saved">Saved</string>
+    <string name="pls_try_again">Please try again</string>
+
+    <!--<string name="banner_ad_unit_id_1">ca-app-pub-3940256099942544/6300978111</string>TEST-->
+
+    <string name="about_us">About us</string>
+    <string name="review">Review</string>
+    <string name="prescription">Prescription</string>
+    <string name="address">Address</string>
+    <string name="your_bio">Your Bio</string>
+    <string name="register">Register</string>
+    <string name="birthday">Birthday</string>
+    <string name="email">Email</string>
+    <string name="gallery">Gallery</string>
+    <string name="sick_name">Sick Name</string>
+    <string name="reference_number">Reference Number :</string>
+    <string name="sick_info">Sick info</string>
+    <string name="date">Date</string>
+    <string name="type_service">Type service</string>
+    <string name="sunday">Sunday</string>
+    <string name="to" translatable="false">To</string>
+    <string name="car_number">Car Number</string>
+    <string name="month_">Month :</string>
+    <string name="month">Month</string>
+    <string name="day_">Day :</string>
+    <string name="day">Day</string>
+    <string name="service_name">Service Name</string>
+    <string name="duration">Duration</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="title">Title</string>
+    <string name="done">Done</string>
+    <string name="no_items_found">No items found</string>
+    <string name="all">All</string>
+    <string name="reviews">Reviews</string>
+    <string name="add_review">Add Review</string>
+    <string name="request_status">Request Status :</string>
+    <string name="pending">Pending</string>
+    <string name="name">Name</string>
+    <string name="service">Service</string>
+    <string name="comments">Comments</string>
+    <string name="working_hours">Working Hours</string>
+    <string name="services">Services</string>
+    <string name="staff">Staff</string>
+    <string name="edit_industry">Edit Industry</string>
+    <string name="edit_location">Edit Location</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="log_out">Log Out</string>
+    <string name="hours">Hours</string>
+    <string name="set_your_business_hours">Set Your Business Hours</string>
+    <string name="let_your_customers_know_when_you_are_open">Let your customers know when you are open</string>
+    <string name="location">Location</string>
+    <string name="password">Password</string>
+    <string name="define_your_staff_password">Define Your Staff Password</string>
+    <string name="you_can_define_and_change_your_staff_password">You can define and change your staff password</string>
+    <string name="admin_password">Admin Password</string>
+    <string name="co_worker_password">Co-Worker Password</string>
+    <string name="assistant_password">Assistant Password</string>
+    <string name="add_the_services_you_offer">Add The Services You Offer</string>
+    <string name="don_t_worry_you_can_always_edit_these_later">Don\'t worry! you can always edit these later</string>
+    <string name="time_duration">Time Duration</string>
+    <string name="price">Price</string>
+    <string name="add_your_staff">Add Your Staff</string>
+    <string name="user_name">User Name</string>
+    <string name="roll">Roll</string>
+    <string name="permission">Permission</string>
+    <string name="cancel">Cancel</string>
+    <string name="staffs">Staffs</string>
+    <string name="we_ll_get_you_booking_appointments_in_no_time_next">We\'ll get you booking appointments in no time next</string>
+    <string name="setup_only_takes_a_moment_you_ll_be_booking_appointments_in_no_time">Setup only takes a moment. you\'ll be booking appointments in no time.</string>
+    <string name="industry">Industry</string>
+    <string name="city">City</string>
+    <string name="your_business">Your Business</string>
+    <string name="phone">Phone</string>
+    <string name="booking_appointment">Booking Appointment</string>
+    <string name="are_you_sure_for_delete">Are you sure for delete?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="choose_gender">Choose Gender</string>
+    <string name="not_valid">Not Valid</string>
+    <string name="price_">Price :</string>
+    <string name="duration_">Duration :</string>
+    <string name="your_gps_seems_to_be_disabled">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="gps_is_off">Gps is off</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="select_a_date">Select a date</string>
+    <string name="select_date">Select Date</string>
+    <string name="date_">Date :</string>
+    <string name="time_">Time :</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="no_show">No-Show</string>
+    <string name="change_status">Change Status</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="deleted">Deleted</string>
+    <string name="are_you_sure_for_logout">Are you sure for log out?</string>
+    <string name="please_set_your_time">Please Set Your Time</string>
+    <string name="please_select_a_location">Please select a location</string>
+    <string name="update_service">Update Service</string>
+    <string name="add_service">Add Service</string>
+    <string name="add_staff">Add Staff</string>
+    <string name="update_staff">Update Staff</string>
+    <string name="choose_roll">Choose Roll</string>
+    <string name="choose_industry">Choose Industry</string>
+    <string name="choose_city">Choose City</string>
+
+    <string name="exit">Exit</string>
+    <string name="city_2dot">city :</string>
+    <string name="code_2dot">code :</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="share">Share</string>
+    <string name="version">Version</string>
+    <string name="welcome_to_umaass" translatable="false">Welcome To umaass</string>
+    <string name="login">Login</string>
+    <string name="status">Status</string>
+    <string name="about">About</string>
+    <string name="provider_time_schedule">Provider Time Schedule</string>
+    <string name="move">move</string>
+    <string name="see">See</string>
+    <string name="expert">Expert</string>
+    <string name="closest">Closest :</string>
+    <string name="type_a_comment">Type a comment...</string>
+    <string name="filter">Filter</string>
+    <string name="near_me">Near Me</string>
+    <string name="provider">Provider</string>
+    <string name="appointment_date">Appointment Date</string>
+    <string name="visit_date">Visit Date</string>
+    <string name="visit_time">Visit Time</string>
+    <string name="information">Information</string>
+    <string name="for_another">For Another</string>
+    <string name="for_me">For me</string>
+    <string name="full_name">Full Name</string>
+    <string name="rules">Rules</string>
+    <string name="agree">Agree</string>
+    <string name="my_favorites">My Favorites</string>
+    <string name="sure_for_cancel">Are you sure for cancel?</string>
+    <string name="gps_off_message">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="please_select_date_and_time">Please select date and time</string>
+    <string name="age_">Age :</string>
+    <string name="gender_">Gender :</string>
+    <string name="name_">Name :</string>
+    <string name="phone_">Phone :</string>
+    <string name="choose_service">Choose Service</string>
+    <string name="please_check_the_rules">please check the rules</string>
+    <string name="are_you_sure_for_exit">Are you sure for exit?</string>
+    <string name="age">Age</string>
+    <string name="description">Description</string>
+
+    <string name="successful_operation">Successful Operation</string>
+    <string name="balance_is_not_enough">Balance Is Not Enough</string>
+    <string name="wallet_not_found">Wallet Not Found!</string>
+    <string name="transactions_list">Transactions List</string>
+    <string name="charge_code_applied_successfully">Charge Code Applied Successfully</string>
+    <string name="withdraw_amount">Withdraw Amount</string>
+    <string name="request_has_been_sent_successfully">Request Has Been Sent Successfully</string>
+    <string name="balance_is_low">Balance Is Low!</string>
+    <string name="accounts_charge">Accounts Charge</string>
+    <string name="send_money">Send Money</string>
+    <string name="commission_wallet">Commission</string>
+    <string name="remain_balance">Remain Balance</string>
+    <string name="charge_by_cash">Charge by cash</string>
+    <string name="charge_by_code">Charge by code</string>
+    <string name="transfered_by_user">Transfered by user</string>
+    <string name="transfered_to_user">Transfered to user</string>
+    <string name="transfered_by_provider">Transfered by provider</string>
+    <string name="transfered_to_provider">Transfered to provider</string>
+    <string name="trip">Trip</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="rejected">Rejected</string>
+    <string name="request">Request</string>
+    <string name="wallet_id">Wallet id</string>
+    <string name="balance">Balance</string>
+    <string name="charge_code">Charge Code</string>
+    <string name="send">Send</string>
+    <string name="invalid_charge_code">Invalid Charge Code</string>
+    <string name="are_you_sure_for_send_money_to">Are you sure for send money to</string>
+    <string name="please_enter_your_code">Please enter your code</string>
+    <string name="please_enter_wallet_id">Please enter  wallet id</string>
+    <string name="please_enter_amount">Please enter amount</string>
+    <string name="wallet_commission">Commission</string>
+
+    <!--Google map-->
+    <!--string name="google_map_api">AIzaSyDStEHD8qw0Ng7lDxM5h3ZI5DtlMQVwd_w</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="please_wait">Please wait&#8230;</string>
+    <!--<string name="facebook_app_id">141223863110656</string>-->
+
+    <!--navigation_drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="waitingForApproval">Waiting for your account to be verified by our authority.</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="tax">Tax</string>
+
+    <!--Activity Begin-->
+    <string name="get_moving_with_taxialaan">Get moving with TaxiAlaan - Captain</string>
+    <string name="enter_your_mail_id">Enter your mail ID</string>
+    <string name="or_connect_with_social_media">Or connect with social</string>
+
+    <!--Activity Email -->
+    <string name="whats_your_mail_address">What\'s your email address?</string>
+    <string name="sample_mail_id">name@example.com</string>
+
+    <!--Activity Password -->
+    <string name="welcome_back">Welcome back, sign in to continue </string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="i_forgot_my_password">I forgot my password</string>
+    <string name="i_need_to_create_an_account">I need to create an account</string>
+
+    <string name="mobile_no">9876543210</string>
+    <string name="password_txt">******</string>
+    <string name="Introducer_code">Introducer Code</string>
+    <!-- Activity ForgetPassword -->
+    <string name="recover_password">Enter your mail ID for recovery</string>
+
+    <!-- Edit Activity-->
+    <string name="change_password">Looking to change password?</string>
+    <string name="save">SAVE</string>
+    <string name="update_success">Profile Updated.</string>
+
+    <!--Show Dailog-->
+    <string name="connect_to_network">Connect to network or quit</string>
+    <string name="connect_to_wifi">Connect to WIFI</string>
+    <string name="quit">Quit</string>
+    <string name="cancel_ride">Cancel ride</string>
+    <string name="cencel_request">Are you sure you want to cancel the ride?</string>
+    <string name="exit_confirm">Are you sure you want to logout?</string>
+
+    <!-- Error Messages-->
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="something_went_wrong_net">Something went wrong, Please check internet connection.</string>
+    <string name="oops_connect_your_internet">Oops ! Connect your Internet.</string>
+    <string name="server_down">Unable to reach server.</string>
+    <string name="please_try_again">Please try again.</string>
+    <string name="email_validation">Enter your email ID.</string>
+    <string name="not_valid_email">Not a valid email ID.</string>
+    <string name="password_validation">Password could not be left empty.</string>
+    <string name="first_name_empty">First name required.</string>
+    <string name="last_name_empty">Last name required.</string>
+    <string name="mobile_number_empty">Mobile number required.</string>
+    <string name="request_reject">Request rejected successfully</string>
+    <string name="request_accept">Request accepted successfully</string>
+    <string name="request_cancel">You have cancelled the request</string>
+    <string name="no_routes_available">There is no route</string>
+
+    <!--Approval status-->
+    <string name="approved">Approved</string>
+    <string name="banned">Banned</string>
+    <string name="waiting_for_approval">Waiting for Approval</string>
+
+    <!--Wallet Fragment-->
+    <string name="your_wallet_amount">Your wallet amount is</string>
+    <string name="sample_amount">1450</string>
+
+    <!--Offline Activity -->
+    <string name="go_online">Go Online</string>
+    <string name="go_offline">GO OFFLINE</string>
+
+    <!--Invalid Username and Password-->
+    <string name="invalid_credentials">Invalid Username and Password.</string>
+
+    <!--True or False -->
+    <string name="True" translatable="false">true</string>
+    <string name="False" translatable="false">false</string>
+
+    <!--Your Trips-->
+    <string name="history">History</string>
+    <string name="no_trips">No trip available.</string>
+    <string name="no_upcoming_trips">No Upcoming trips available.</string>
+    <string name="no_rides">No rides completed.</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="past">Past</string>
+    <string name="payment_methods">Payment Methods</string>
+    <string name="sample_name">Will Smith</string>
+    <string name="ratetrip">Rate your trip</string>
+    <string name="write">Write your comments</string>
+
+    <string name="pasttrip">Past Trips</string>
+    <string name="upcomingtrip">Upcoming Trips</string>
+
+    <!--Flow status -->
+    <string name="tap_when_arrived">TAP WHEN ARRIVED</string>
+    <string name="tap_when_pickedup">TAP WHEN PICKEDUP</string>
+    <string name="tap_when_dropped">TAP WHEN DROPPED</string>
+    <string name="tap_when_paid">CONFIRM PAYMENT</string>
+    <string name="rate_user">SUBMIT</string>
+
+    <!--Change Password-->
+    <string name="change_password_title">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm New Password</string>
+    <string name="please_enter_current_pass">Please enter current password.</string>
+    <string name="please_enter_new_pass">Please enter new password.</string>
+    <string name="please_enter_confirm_pass">Please enter confirmation password.</string>
+    <string name="different_passwords">Password doesn\'t match.</string>
+
+    <!--Side Navigation Menu -->
+    <string name="home">Home</string>
+    <string name="your_trips">Your Trips</string>
+    <string name="wallet">Wallet</string>
+    <string name="help">Help</string>
+    <string name="earnings">Earnings</string>
+    <string name="logout">Logout</string>
+    <string name="valid_image">No image found</string>
+    <string name="user_no_mobile">User do not have a valid mobile number.</string>
+    <string name="incorrect_otp">Incorrect OTP</string>
+    <string name="otp_validation">OTP field is required</string>
+    <string name="confirm_password_validation">Password Mismatch</string>
+    <string name="confirm_validation">Confirm password must be greater than 6</string>
+    <string name="new_validation">New password must be greater than 6</string>
+    <string name="note">Note : Please enter the otp send to your registered email address</string>
+    <string name="secrete_code">Enter OTP</string>
+    <string name="reset_password">Reset password</string>
+    <string name="request_time_out">Request Timeout</string>
+    <string name="cancel_confirm">Are you sure you want to cancel the ride?</string>
+    <string name="connect_with_social_media">Or connect with social</string>
+    <string name="no_services">No services assigned</string>
+    <string name="choose_acc">Choose an account</string>
+    <string name="facebook_name">Facebook</string>
+    <string name="google_name">Google</string>
+    <string name="commission">Service charge</string>
+    <string name="no_comments">No comment available</string>
+    <string name="base_price">Base fare</string>
+    <string name="distance_price">Distance fare</string>
+    <string name="profile">Profile</string>
+    <string name="services_requested">Service requested</string>
+    <string name="call">Call</string>
+    <string name="reject">Reject</string>
+    <string name="sos_confirm">Are you sure want to proceed with emergency call?</string>
+    <string name="choose_type">Choose type</string>
+    <string name="invoice"> - Invoice</string>
+    <string name="pick_up">Pick up Location </string>
+    <string name="drop_at">Drop Location </string>
+    <string name="reason_to_cancel">Reason to cancel</string>
+    <string name="booking_id_colon">Booking ID : </string>
+    <string name="booking_id">Booking ID</string>
+    <string name="reason">Reason</string>
+    <string name="submit">Submit</string>
+    <string name="summary">Summary</string>
+    <string name="total_rides">TOTAL NO OF RIDES</string>
+    <string name="total_earnings">Total Earnings</string>
+    <string name="amount">Amount</string>
+    <string name="time">Time</string>
+    <string name="target">Target\nCompleted</string>
+
+    <string name="revenue">REVENUE</string>
+    <string name="schedule_rides">NO OF SCHEDULED RIDES</string>
+    <string name="canceled_rides">CANCELLED RIDES</string>
+    <string name="rides">Rides</string>
+    <string name="upcoming_rides">Upcoming rides</string>
+    <string name="help_msg">Our team person contact\n you soon!</string>
+    <string name="no_address">No address available</string>
+    <string name="email_exist">The email has already been taken</string>
+    <string name="first_name_no_number">First name do not accept numbers</string>
+    <string name="last_name_no_number">Last name do not accept numbers</string>
+    <string name="password_size">Password size must be atleast 6</string>
+    <string name="sms_verification">Phone Number Verification</string>
+    <string name="select_country_code">Country Code</string>
+    <string name="select_country_code_alert">Select Country Code</string>
+    <string name="select_language">Select Language</string>
+    <string name="register_title">Enter your details to register</string>
+    <string name="alphabets">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="choose_language">Pick your language</string>
+    <string name="confirm">Confirm </string>
+    <string name="language_update">Updating Language... Please wait</string>
+    <string name="language">Change Language</string>
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="kurdish">Kurdî</string>
+
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="what_s_your_phone_number">What\'s your phone number?</string>
+    <string name="mobile_number_validation">Please enter mobile number</string>
+    <string name="valid_mobile_number">Please enter valid mobile number</string>
+    <string name="welcome_back_enter_otp_to_continue">Enter OTP to continue</string>
+    <string name="otp_not_received_resend_again">OTP not received, Resend again</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="error_enter_otp">Please enter OTP</string>
+    <string name="error_please_enter_correct_otp">Please enter correct OTP</string>
+    <string name="otp_sent_ur_number">OTP sent to your number</string>
+    <string name="email_optional">Email (Optional)</string>
+    <string name="total">Total</string>
+    <string name="cash">CASH</string>
+    <string name="card">CARD</string>
+
+    <string name="Pay_By_User_Wallet">Pay By User Wallet</string>
+    <string name="Pay_By_User_In_Cash">Pay By User In Cash</string>
+    <string name="Transfer_To_User_Wallet">Transfer To User Wallet</string>
+    <string name="AmountisLess">The Entered Amount is Less Than Trip Pirce!:</string>
+    <string name="Travel_costs">Travel Costs</string>
+    <string name="Discount">Discount</string>
+
+    <string name="internet">Please check your internet connection. It may be weak or disconnected</string>
+    <string name="saturday">Saturday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="update">Update</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="finish">Finish</string>
+    <string name="complete">Complete</string>
+    <string name="add_image">Add Image</string>
+    <string name="address_us">Erbil - Italian Village 1 - Villa 591</string>
+    <string name="warning">Warning</string>
+    <string name="new_version_available">There is a newer version of umassuser application available, click UPDATE to upgrade now?</string>
+    <string name="suggest_appointment">Suggest profession owner</string>
+
+    <string name="country_list">Country</string>
+    <string name="select_country">Select a country</string>
+    <string name="select_country_first">Please first select the country</string>
+    <string name="select_category">Select a category</string>
+    <string name="category">Category</string>
+
+    <string name="doctor_name">Name</string>
+    <string name="doctor_mobile">Mobile</string>
+    <string name="doctor_pecialty">Specialty</string>
+    <string name="country">Country(Optional)</string>
+    <string name="city_optional">Province(Optional)</string>
+
+    <string name="notifications">Message</string>
+    <string name="filteras">Closest to me</string>
+    Closest to
+
+</resources>

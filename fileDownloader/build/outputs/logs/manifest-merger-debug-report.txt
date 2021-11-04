@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml:1:1-11:12
+INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml:1:1-11:12
+	package
+		ADDED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml:2:5-43
+		INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml:4:5-9:19
+service#com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService
+ADDED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml:5:9-90
+	android:name
+		ADDED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml:5:18-87
+service#com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService
+ADDED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml:6:9-8:49
+	android:process
+		ADDED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml:8:13-46
+	android:name
+		ADDED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml:7:13-80
+uses-sdk
+INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml
+INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml
+INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml
+INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml
+		ADDED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml
+		ADDED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\anbar\anbar\fileDownloader\src\main\AndroidManifest.xml

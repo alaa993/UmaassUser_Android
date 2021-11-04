@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="green" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#4CAF50</item>
+        <item name="colorControlHighlight">#378039</item>
+        <item name="colorAccent">#4CAF50</item>
+    </style>
+
+    <style name="primary" parent="Base.Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+    <style name="primaryLight" parent="Base.Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/colorPrimaryLight</item>
+        <item name="colorControlHighlight">@color/colorPrimaryLight</item>
+        <item name="colorAccent">@color/card_color</item>
+    </style>
+
+    <style name="white" parent="Base.Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/card_color</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/card_color</item>
+    </style>
+
+    <style name="gray_button" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/card_color</item>
+        <item name="colorControlHighlight">#747474</item>
+        <item name="colorAccent">@color/card_color</item>
+    </style>
+
+    <style name="yellow_button" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#FFFDE5</item>
+        <item name="colorControlHighlight">#FAB914</item>
+        <item name="colorAccent">#FFFDE5</item>
+    </style>
+
+    <style name="red_button" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">#FDE7E8</item>
+        <item name="colorControlHighlight">#FD4C54</item>
+        <item name="colorAccent">#FDE7E8</item>
+    </style>
+
+    <style name="DialogStyleTitle" >
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="DialogDescStyle">
+        <item name="android:textColor">@color/grey_8b8b8b</item>
+        <item name="android:gravity">center|right</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+</resources>
